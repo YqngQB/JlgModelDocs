@@ -3,8 +3,11 @@ home: true
 heroImage: https://vuepress.vuejs.org/hero.png
 heroText: Jlg Model
 tagline: 易于使用、可定制的 Vue.js Model组件
-actionText: 快速上手 →
-actionLink: /Installation/
+actionBtn:
+  text: 快速上手 →
+  link: /Installation/
+  type: primary
+  size: large
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
