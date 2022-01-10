@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>其他注意事项 | 金六谷内包系统Model组件文档</title>
+    <meta name="description" content="">
+    <meta name="generator" content="VuePress 1.8.3">
+    
+    <meta name="description" content="简单、灵活的 Modal 插件">
+    <link rel="preload" href="/jlg-modal/assets/css/0.styles.b34716c6.css" as="style"><link rel="preload" href="/jlg-modal/assets/js/app.7bfa8514.js" as="script"><link rel="preload" href="/jlg-modal/assets/js/2.c1b22442.js" as="script"><link rel="preload" href="/jlg-modal/assets/js/10.9d470fed.js" as="script"><link rel="prefetch" href="/jlg-modal/assets/js/11.ff5191de.js"><link rel="prefetch" href="/jlg-modal/assets/js/12.cc223020.js"><link rel="prefetch" href="/jlg-modal/assets/js/13.84b39983.js"><link rel="prefetch" href="/jlg-modal/assets/js/14.cede07e2.js"><link rel="prefetch" href="/jlg-modal/assets/js/3.6846ca0c.js"><link rel="prefetch" href="/jlg-modal/assets/js/4.b66d3b08.js"><link rel="prefetch" href="/jlg-modal/assets/js/5.c07ddfcc.js"><link rel="prefetch" href="/jlg-modal/assets/js/6.0c9efcb3.js"><link rel="prefetch" href="/jlg-modal/assets/js/7.51b85499.js"><link rel="prefetch" href="/jlg-modal/assets/js/8.903272ee.js"><link rel="prefetch" href="/jlg-modal/assets/js/9.bbd1f05b.js">
+    <link rel="stylesheet" href="/jlg-modal/assets/css/0.styles.b34716c6.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="ant-row"><div class="nav-button"><i aria-label="icon: bars" class="anticon anticon-bars"><svg viewBox="0 0 1024 1024" focusable="false" data-icon="bars" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M912 192H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM104 228a56 56 0 1 0 112 0 56 56 0 1 0-112 0zm0 284a56 56 0 1 0 112 0 56 56 0 1 0-112 0zm0 284a56 56 0 1 0 112 0 56 56 0 1 0-112 0z"></path></svg></i> <span></span></div> <div class="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-6 ant-col-lg-5 ant-col-xl-5 ant-col-xxl-4"><a href="/jlg-modal/" class="router-link-active no-logo home-link"><!----> <span class="site-name">金六谷内包系统Model组件文档</span></a> <div class="search-box mobile-search"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div></div> <div class="ant-col ant-col-xs-0 ant-col-sm-0 ant-col-md-18 ant-col-lg-19 ant-col-xl-19 ant-col-xxl-20"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><ul role="menu" id="nav" class="ant-menu ant-menu-horizontal ant-menu-root ant-menu-light"><li role="menuitem" class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu" style="display:none;"><div aria-haspopup="true" class="ant-menu-submenu-title"><span>···</span><i class="ant-menu-submenu-arrow"></i></div></li><li role="menuitem" class="ant-menu-item"><a href="/jlg-modal/examples/">
+          示例
+        </a></li><li role="menuitem" class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu" style="visibility:hidden;position:absolute;"><div aria-haspopup="true" class="ant-menu-submenu-title"><span>···</span><i class="ant-menu-submenu-arrow"></i></div></li></ul> <!----></nav></div></div> <!----></header> <aside class="sidebar"><!----> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>指南</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/jlg-modal/Installation.html" title="如何引入" class="sidebar-link">如何引入</a></li><li><a href="/jlg-modal/Intro.html" title="介绍" class="sidebar-link">介绍</a></li><li><a href="/jlg-modal/Usage.html" title="用法" class="sidebar-link">用法</a></li><li><a href="/jlg-modal/Properties.html" title="属性" class="sidebar-link">属性</a></li><li><a href="/jlg-modal/Events.html" title="事件" class="sidebar-link">事件</a></li><li><a href="/jlg-modal/Dialog.html" title="jlgDialog" class="sidebar-link">jlgDialog</a></li><li><a href="/jlg-modal/Slots.html" title="Slots" class="sidebar-link">Slots</a></li><li><a href="/jlg-modal/Other.html" aria-current="page" title="其他注意事项" class="active sidebar-link">其他注意事项</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/jlg-modal/Other.html#原有的旧弹窗-改成-新modal-步骤" title="原有的旧弹窗 改成 新modal 步骤" class="sidebar-link">原有的旧弹窗 改成 新modal 步骤</a></li></ul></li></ul></section></li></ul></aside> <main class="page"> <div class="theme-antdocs-content content__default"><h1 id="其他注意事项"><a href="#其他注意事项" class="header-anchor">#</a> 其他注意事项</h1> <p>新Modal 相较于 旧组件 用法上精简了不少</p> <h2 id="原有的旧弹窗-改成-新modal-步骤"><a href="#原有的旧弹窗-改成-新modal-步骤" class="header-anchor">#</a> 原有的旧弹窗 改成 新modal 步骤</h2> <h4 id="第一步"><a href="#第一步" class="header-anchor">#</a> 第一步</h4> <p>主页面：</p> <blockquote><p>1.删除</p> <div class="language-vue extra-class"><pre class="language-vue"><code>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>formDialog</span>
+      <span class="token attr-name">:visible.sync</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>dialogTableVisible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:value</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>formData<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>dialogType<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>dialogTableTitle<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">@close</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>handleCancel<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+
+import formDialog from './Dialog/formDialog.vue'
+
+  components: {
+    formDialog,
+  },
+</code></pre></div><p>2.(只是示例不能直接复制)：</p> <div class="language-vue extra-class"><pre class="language-vue"><code>  methods: {
+    handleCancel() {
+      this.$refs.table.refresh()
+    },
+    /**
+     * 新增
+     * */
+    handleAdd() {
+      this.$modal.show(ModalXXX, { title: 'XXX', type: 'add' }, { name: 'ModalXXX', height: 'auto' }, {
+        // 在模态被销毁之前发出。
+        'closed': (event) =&gt; {
+          this.handleCancel()
+        }
+      })
+    },
+    /**
+     * 查看
+     * */
+    handleRead(selection) {
+      this.$modal.show(ModalXXX, { title: '查看产品信息', type: 'read', value: selection }, { name: 'ModalXXX', height: 'auto' })
+    },
+    /**
+    * 修改
+    * */
+    handleEdit(selection) {
+      if ((selection.length === 0 || !selection)) {
+        this.$message({ message: '操作无效，请先选择数据！', type: 'warning' })
+        return false
+      }
+      // ......
+      this.$modal.show(ModalXXX, { title: '编辑产品信息', type: 'edit', value: selection }, { name: 'ModalXXX', height: 'auto' }, {
+            'closed': (event) =&gt; {
+              this.handleCancel()
+            }
+          }
+      )
+    }
+
+
+  }
+</code></pre></div></blockquote> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token comment">&lt;!-- 旧 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>jlg-dialog</span> <span class="token attr-name">:title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>title<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:visible.sync</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>dialogVisible<span class="token punctuation">&quot;</span></span> <span class="token attr-name">width</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>1200px<span class="token punctuation">&quot;</span></span> <span class="token attr-name">@close</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>handleCancel<span class="token punctuation">&quot;</span></span>
+            <span class="token attr-name">@opened</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>handleOpen<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>jlg-dialog</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- 新  ref，title，type 是必须的 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>jlg-dialog</span>
+    <span class="token attr-name">ref</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>jlgDialog<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:model.sync</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>formData<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>title<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>type<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:anchor-point-navigation</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>true<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:catalogs-list</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>catalogsList<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">@submit</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>handleSave<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">@opened</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>handleOpen<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>jlg-dialog</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- 删除项：visible  width  @close --&gt;</span>
+<span class="token comment">&lt;!-- anchor-point-navigation：是否需要锚点导航组件，看情况添加--&gt;</span>
+<span class="token comment">&lt;!-- catalogs-list：与 anchor-point-navigation 属性配合使用 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 注意：catalogsList格式</span>
+      catalogsList<span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          name<span class="token operator">:</span> <span class="token string">'基本信息'</span><span class="token punctuation">,</span>
+          ref<span class="token operator">:</span> <span class="token string">''</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+          name<span class="token operator">:</span> <span class="token string">'退货明细'</span><span class="token punctuation">,</span>
+          ref<span class="token operator">:</span> <span class="token string">''</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">]</span><span class="token punctuation">,</span>
+      formData<span class="token operator">:</span><span class="token punctuation">{</span><span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">/**
+     * 在Modal变为可见或开始转换后发出;可以进行一些赋值操作
+     * */</span>
+    <span class="token function">handleOpen</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 非新增时，打开弹窗给表单赋值</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>type <span class="token operator">!==</span> <span class="token string">'add'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>$global<span class="token punctuation">.</span><span class="token function">fillObj</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>formData<span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>value<span class="token punctuation">)</span> <span class="token comment">// 弹框打开时，给this.formData赋值</span>
+        <span class="token comment">// 其他赋值操作 ...... </span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">handleSave</span><span class="token punctuation">(</span><span class="token parameter">type<span class="token punctuation">,</span> data</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment">// ......</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div><h4 id="第二步"><a href="#第二步" class="header-anchor">#</a> 第二步</h4> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token comment">&lt;!-- 旧 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>formDisabled</span> <span class="token attr-name">:disabled</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>this.type === <span class="token punctuation">'</span>read<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>FormulateForm</span> <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>formData<span class="token punctuation">&quot;</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>Returns-Dialog-addReturns-formulate_1<span class="token punctuation">&quot;</span></span>
+               <span class="token attr-name">@failed-validation</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>failedValidation<span class="token punctuation">&quot;</span></span>
+               <span class="token attr-name">@submit</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>handleSave<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>FormulateForm</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>formDisabled</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- 新   --&gt;</span>
+
+<span class="token comment">&lt;!-- 删除项：formDisabled组件 FormulateForm组件 --&gt;</span>
+
+</code></pre></div><blockquote><p><s><code>import jlgDialog from '@/components/Dialog'</code></s></p> <p>components: {
+<s>jlgDialog,</s>
+},</p></blockquote> <h4 id="第三步"><a href="#第三步" class="header-anchor">#</a> 第三步</h4> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token comment">&lt;!-- 旧 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-alert</span>
+    <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>value.ProcessStatus===2 || value.ProcessStatus===3<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>value.ProcessStatus===2?<span class="token punctuation">'</span>已审核<span class="token punctuation">'</span>:<span class="token punctuation">'</span>已驳回<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>value.ProcessStatus===2?<span class="token punctuation">'</span>success<span class="token punctuation">'</span>:<span class="token punctuation">'</span>error<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:description</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>value.ProcessStatus===3?`驳回原因：${value.CheckReason}`:<span class="token punctuation">'</span><span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:closable</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>false<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">show-icon</span> <span class="token punctuation">/&gt;</span></span>
+
+<span class="token comment">&lt;!-- 新   --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>alert<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-alert</span>
+      <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>value.ProcessStatus===2 || value.ProcessStatus===3<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>value.ProcessStatus===2?<span class="token punctuation">'</span>已审核<span class="token punctuation">'</span>:<span class="token punctuation">'</span>已驳回<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>value.ProcessStatus===2?<span class="token punctuation">'</span>success<span class="token punctuation">'</span>:<span class="token punctuation">'</span>error<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:description</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>value.ProcessStatus===3?`驳回原因：${value.CheckReason}`:<span class="token punctuation">'</span><span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">:closable</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>false<span class="token punctuation">&quot;</span></span>
+      <span class="token attr-name">show-icon</span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- el-alert需要放到 alert 插槽内 --&gt;</span>
+
+</code></pre></div><h4 id="第四步-不需要锚点导航组件跳过这一步"><a href="#第四步-不需要锚点导航组件跳过这一步" class="header-anchor">#</a> 第四步 （不需要锚点导航组件跳过这一步）</h4> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token comment">&lt;!-- 旧 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>jlg-collapse</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>basicInfoRef<span class="token punctuation">&quot;</span></span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>基本信息<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>icon<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>iconfont icon-chanpinxinxi<span class="token punctuation">&quot;</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">font-size</span><span class="token punctuation">:</span> 22px</span><span class="token punctuation">&quot;</span></span></span> <span class="token punctuation">/&gt;</span></span>
+  <span class="token comment">&lt;!-- ...... --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>jlg-collapse</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>jlg-collapse</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>productInformationRef<span class="token punctuation">&quot;</span></span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>退货明细<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>icon<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>iconfont icon-chanpinxinxi<span class="token punctuation">&quot;</span></span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span><span class="token value css language-css"><span class="token property">font-size</span><span class="token punctuation">:</span> 22px</span><span class="token punctuation">&quot;</span></span></span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- ...... --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>jlg-collapse</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- 新   --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>jlg-collapse</span> <span class="token attr-name">v-ref</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>r=&gt;catalogsList[0].ref=r<span class="token punctuation">&quot;</span></span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>基本信息<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>jlg-collapse</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>jlg-collapse</span> <span class="token attr-name">v-ref</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>r=&gt;catalogsList[1].ref=r<span class="token punctuation">&quot;</span></span> <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>基本信息<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>jlg-collapse</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 注意：catalogsList格式</span>
+      catalogsList<span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          name<span class="token operator">:</span> <span class="token string">'基本信息'</span><span class="token punctuation">,</span>
+          ref<span class="token operator">:</span> <span class="token string">''</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+          name<span class="token operator">:</span> <span class="token string">'退货明细'</span><span class="token punctuation">,</span>
+          ref<span class="token operator">:</span> <span class="token string">''</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div><h4 id="第五步"><a href="#第五步" class="header-anchor">#</a> 第五步</h4> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token comment">&lt;!-- 旧： --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-button</span>
+                <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>type!==<span class="token punctuation">'</span>read<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+                <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>primary<span class="token punctuation">&quot;</span></span> <span class="token attr-name">icon</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>el-icon-circle-check<span class="token punctuation">&quot;</span></span>
+                <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>$formulate.submit(<span class="token punctuation">'</span>Returns-Dialog-addReturns-formulate_1<span class="token punctuation">'</span>)<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>保 存<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-button</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>title===<span class="token punctuation">'</span>审核退货单<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token comment">&lt;!-- ...... --&gt;</span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-button</span> <span class="token attr-name">icon</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>el-icon-circle-close<span class="token punctuation">&quot;</span></span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>dialogVisible = false<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>取 消<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-button</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- 新   --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-button</span>
+                <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>type!==<span class="token punctuation">'</span>read<span class="token punctuation">'</span> &amp;&amp; type!==<span class="token punctuation">'</span>review<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span>
+                <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>primary<span class="token punctuation">&quot;</span></span> <span class="token attr-name">icon</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>el-icon-circle-check<span class="token punctuation">&quot;</span></span>
+                <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>$refs.jlgDialog.submitForm<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>保 存<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-button</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>title===<span class="token punctuation">'</span>审核退货单<span class="token punctuation">'</span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token comment">&lt;!-- ...... --&gt;</span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+          <span class="token comment">&lt;!-- 新：$emit('close')   --&gt;</span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>el-button</span> <span class="token attr-name">icon</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>el-icon-circle-close<span class="token punctuation">&quot;</span></span> <span class="token attr-name">@click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>$emit(<span class="token punctuation">'</span>close<span class="token punctuation">'</span>)<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>取 消<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>el-button</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+
+</code></pre></div><ol><li>提交表单： <code>$formulate.submit('Returns-Dialog-addReturns-formulate_1')</code> 修改成  <code>$refs.jlgDialog.submitForm</code></li> <li>关闭表单：<code>this.dialogVisible = false</code> 修改成 <code>$emit('close')</code></li> <li>需要注意 页面代码中 可能多次用到了  <code>this.dialogVisible = false</code></li> <li>审核时需要注意 type =  <code>review</code>, 原有判断需要请根据情况修改</li></ol> <h4 id="第六步"><a href="#第六步" class="header-anchor">#</a> 第六步</h4> <p>删除 计算属性 dialogVisible ；删除 props: visible</p> <div class="language-js extra-class"><pre class="language-js"><code>computed<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">/* 控制弹框显示隐藏*/</span>
+    <span class="token comment">// dialogVisible: {</span>
+    <span class="token comment">//   get() {</span>
+    <span class="token comment">//     return this.visible</span>
+    <span class="token comment">//   },</span>
+    <span class="token comment">//   set(newVal) {</span>
+    <span class="token comment">//     this.$emit('update:visible', newVal)</span>
+    <span class="token comment">//   }</span>
+    <span class="token comment">// },</span>
+<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">,</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/jlg-modal/Slots.html" class="prev"><i aria-label="icon: left" class="anticon anticon-left"><svg viewBox="64 64 896 896" focusable="false" data-icon="left" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"></path></svg></i>
+        Slots
+      </a></span> <!----></p></div> </main> <!----></div><div class="global-ui"></div></div>
+    <script src="/jlg-modal/assets/js/app.7bfa8514.js" defer></script><script src="/jlg-modal/assets/js/2.c1b22442.js" defer></script><script src="/jlg-modal/assets/js/10.9d470fed.js" defer></script>
+  </body>
+</html>
