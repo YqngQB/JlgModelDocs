@@ -2,7 +2,7 @@
 home: true
 heroImage: https://vuepress.vuejs.org/hero.png
 heroText: Jlg Model
-tagline: 易于使用、可定制的 Vue.js Model组件
+tagline: 总结一下封装的一些组件的使用方式
 actionBtn:
   text: 快速上手 →
   link: /Installation/
