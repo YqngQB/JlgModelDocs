@@ -1,6 +1,6 @@
 module.exports = [
   {
-    title: '指南',
+    title: 'Modal',
     collapsable: false,
     children: [
       '/Installation',
@@ -11,6 +11,17 @@ module.exports = [
       '/Dialog',
       '/Slots',
       '/Other'
+    ]
+  },
+  {
+    title: '其他组件',
+    collapsable: false,
+    children: [
+      '/components/screenContainer',
+      '/components/jlgTable',
+      '/components/formDisabled',
+      '/components/FormulateForm',
+      '/components/Descriptions',
     ]
   }
 ]
